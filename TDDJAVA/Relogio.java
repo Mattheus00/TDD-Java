@@ -14,6 +14,10 @@ public class Relogio {
         this.segundos = 0;
     }
 
+    public int getMinutos() {
+        return minutos;
+    }
+
     public void alterarHorario(int horas, int minutos, int segundos) {
         if (horas >= 0 && horas < 24 && minutos >= 0 && minutos < 60 && segundos >= 0 && segundos < 60) {
             this.horas = horas;
@@ -128,6 +132,10 @@ public class Relogio {
                     System.out.println("Opção inválida.");
             }
         }
+
+
+
+
     }
 
 
